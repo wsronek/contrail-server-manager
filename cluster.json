@@ -3,7 +3,7 @@
         {  
             "id": "cluster4",
             "parameters" : {
-                "domain": "juniper.net",
+                "domain": "opencontrail.org",
                 "provision": {
                     "contrail": {
                         "kernel_upgrade" : false

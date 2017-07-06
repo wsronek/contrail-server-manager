@@ -1,0 +1,70 @@
+{
+    "server": [
+        {
+            "cluster_id": "cluster4",
+            "domain": "opencontrail.org",
+            "id": "oc-compute1",
+            "parameters" : {
+                "partition": "/dev/vda",
+                "provision": {
+                    "contrail_4": {
+                    }
+                }
+            },
+            "contrail": {
+                "control_data_interface": "ens3"
+            },
+            "network" : {
+                "interfaces": [
+                    {
+                        "name": "ens3",
+                        "dhcp": false,
+                        "mac_address": "52:54:de:ad:bb:07",
+                        "ip_address": "192.168.98.116/20",
+                        "default_gateway": "192.168.96.1"
+                    }
+                ], 
+                "management_interface": "ens3",
+                "provisioning": "kickstart"
+            },
+            "password": "c0ntrail123",
+            "roles": [
+                "contrail-compute",
+                "contrail-agent"
+            ]
+        },
+        {
+            "cluster_id": "cluster4",
+            "domain": "opencontrail.org",
+            "id": "oc-compute2",
+            "parameters" : {
+                "partition": "/dev/vda",
+                "provision": {
+                    "contrail_4": {
+                    }
+                }
+            },
+            "contrail": {
+                "control_data_interface": "ens3"
+            },
+            "network" : {
+                "interfaces": [
+                    {
+                        "name": "ens3",
+                        "dhcp": false,
+                        "mac_address": "52:54:de:ad:bb:08",
+                        "ip_address": "192.168.98.117/20",
+                        "default_gateway": "192.168.96.1"
+                    }
+                ],
+                "management_interface": "ens3",
+                "provisioning": "kickstart"
+            },
+            "password": "c0ntrail123",
+            "roles": [
+                "contrail-compute",
+                "contrail-agent"
+            ]
+        }
+    ]
+}

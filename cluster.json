@@ -1,0 +1,18 @@
+{
+    "cluster" : [
+        {  
+            "id": "cluster4",
+            "parameters" : {
+                "domain": "juniper.net",
+                "provision": {
+                    "contrail": {
+                        "kernel_upgrade" : false
+                    },
+                    "openstack":{
+                        "openstack_manage_amqp": true
+                    }
+                }
+            }
+        }
+    ]
+}

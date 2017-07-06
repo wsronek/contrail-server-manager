@@ -1,0 +1,11 @@
+{
+    "image": [
+        {
+            "category": "package",
+            "id": "contrail_cluster_4_0_0_0_20_netwon",
+            "path": "/root/contrail-cloud-docker_4.0.0.0-20-newton_xenial.tgz",
+            "type": "contrail-ubuntu-package",
+            "version": "mainline"
+        }
+    ]
+}
